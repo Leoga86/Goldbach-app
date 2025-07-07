@@ -25,7 +25,7 @@ function App() {
           }
         }
         if (!found) {
-          setResult(`¡El número ${par} NO cumple con la conjetura!`);
+          setResult(`❌ El número ${par} NO cumple con la conjetura.`);
           setLoading(false);
           return;
         }

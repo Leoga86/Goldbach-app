@@ -39,10 +39,10 @@ function App() {
     <div style={{maxWidth: 400, margin: 'auto', padding: 20, fontFamily: 'Arial'}}>
       <h2>El Gran Misterio de Goldbach</h2>
       <input
-        type=\"number\"
+        type="number"
         value={limit}
         onChange={(e) => setLimit(Number(e.target.value))}
-        placeholder=\"Ingresá un número par\"
+        placeholder="Ingresá un número par"
         style={{width: '100%', padding: 8, marginBottom: 10, fontSize: 16}}
       />
       <button onClick={checkGoldbach} disabled={loading} style={{width: '100%', padding: 10, fontSize: 16}}>
